@@ -8,4 +8,8 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return
+    if (a<b and b<c):
+        print(a<b<c)
+    else: print('a<b<c oraliqda bo\'lishi kerak')
+    return 0
+y = main(3,4,5)
